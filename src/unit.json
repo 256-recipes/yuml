@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "unit.json",
+  "type": "string",
+  "enum": [
+    "lb",
+    "oz",
+    "mg",
+    "g",
+    "kg",
+    "tsp.",
+    "tbsp.",
+    "pinch",
+    "fl oz",
+    "ml",
+    "l"
+  ]
+}

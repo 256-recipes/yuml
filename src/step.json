@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "step.json",
+  "type": "object",
+  "properties": {
+    "step": {
+      "type": "string"
+    }
+  },
+  "required": ["step"],
+  "additionalProperties": false
+}

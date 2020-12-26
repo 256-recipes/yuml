@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "recipe.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "language": {
+      "$ref": "language.json"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "link.json"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preparationTime": {
+      "type": "number",
+      "minimum": 0
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "ingredient.json"
+      }
+    },
+    "directions": {
+      "type": "array",
+      "items": {
+        "$ref": "step.json"
+      }
+    }
+  },
+  "required": ["name", "language"],
+  "additionalProperties": false
+}

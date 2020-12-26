@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "quantity.json",
+  "oneOf": [
+    {
+      "$ref": "#/definitions/quantity"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "min": {
+          "$ref": "#/definitions/quantity"
+        },
+        "maxn": {
+          "$ref": "#/definitions/quantity"
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "quantity": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "[\u00BC-\u00BE\u2150-\u215E]"
+        },
+        {
+          "type": "string",
+          "pattern": "[0-9]+\u2044[0-9]+"
+        },
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      ]
+    },
+    "additionalProperties": false
+  }
+}

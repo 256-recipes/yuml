@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "amount.json",
+  "type": "object",
+  "properties": {
+    "quantity": {
+      "$ref": "quantity.json"
+    },
+    "unit": {
+      "$ref": "unit.json"
+    }
+  },
+  "additionalProperties": false
+}

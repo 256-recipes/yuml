@@ -1,0 +1,36 @@
+= Yuml
+
+Yuml is a recipe markup language.
+It's is a machine-first markup language, but could be easily read by humans as well.
+Yuml recipes look like this:
+
+[source, yml]
+----
+name: Instant coffee
+language: en
+tags:
+  - beverage
+  - coffee
+preparationTime: 10
+ingredients:
+  - name: Instant coffee
+    amount:
+      quantity: 1
+      unit: tsp.
+  - name: Water
+    amount:
+      quantity: 200
+      unit: ml.
+  - name: Sugar
+    optional: true
+  - name: Milk
+    optional: true
+directions:
+  - step: Boil the water.
+  - step: Add instant coffee to a mug.
+  - step: Add instant coffee to a mug.
+  - step: Dissolve the coffee with water.
+  - step: Mix in sugar or milk, if desired.
+----
+
+The language is governed by a https://json-schema.org[JSON schema] stored in this repository.

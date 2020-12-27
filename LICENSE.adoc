@@ -1,4 +1,4 @@
-= MIT License
+MIT License
 
 Copyright ⓒ 2021 mailto:siarhei.krukau@gmail.com[madhead].
 

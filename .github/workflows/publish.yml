@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: npm install
-      - run: npm version --no-git-tag-version --force ${{ steps.release.outputs.tag_name }}
+      - run: npm version --no-git-tag-version -allow-same-version --force from-git
       - run: npm run-script build
       - uses: actions/upload-release-asset@v1
         env:

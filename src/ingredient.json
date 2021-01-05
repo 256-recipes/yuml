@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "ingredient.json",
+  "$id": "https://github.com/256-recipes/yuml/releases/download/${version}/ingredient.json",
   "type": "object",
   "properties": {
     "name": {

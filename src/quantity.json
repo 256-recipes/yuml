@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "quantity.json",
+  "$id": "https://github.com/256-recipes/yuml/releases/download/${version}/quantity.json",
   "oneOf": [
     {
       "$ref": "#/definitions/quantity"

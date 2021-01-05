@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "link.json",
+  "$id": "https://github.com/256-recipes/yuml/releases/download/${version}/link.json",
   "type": "string",
   "format": "uri"
 }

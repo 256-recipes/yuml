@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "language.json",
+  "$id": "https://github.com/256-recipes/yuml/releases/download/${version}/language.json",
   "type": "string",
   "pattern": "^[a-z]{2}$"
 }

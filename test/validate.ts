@@ -24,11 +24,11 @@ function validate(
 export default function tests(schema: string) {
   const schemaFile = path.resolve(
     path.dirname(__filename),
-    `../src/${schema}.json`
+    `../dist/${schema}.json`
   );
   const otherSchemas = path.resolve(
     path.dirname(__filename),
-    `../src/!(${schema}).json`
+    `../dist/!(${schema}).json`
   );
   const testResources = path.resolve(
     path.dirname(__filename),

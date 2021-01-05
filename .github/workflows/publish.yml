@@ -26,8 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: npm install
-      - run: npm version --no-git-tag-version -allow-same-version --force from-git
-      - run: npm run-script build
+      - run: VERSION=${{ steps.release.outputs.tag_name }} npm run-script build
       - uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

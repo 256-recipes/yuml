@@ -1,0 +1,36 @@
+name: Publish
+on:
+  release:
+    types:
+      - created
+      - published
+      - edited
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        file:
+          - amount.json
+          - ingredient.json
+          - language.json
+          - link.json
+          - quantity.json
+          - recipe.json
+          - step.json
+          - unit.json
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bruceadams/get-release@v1
+        id: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.release.outputs.upload_url }}
+          asset_path: src/${{ matrix.file }}
+          asset_name: ${{ matrix.file }}
+          asset_content_type: application/json

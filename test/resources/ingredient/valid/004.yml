@@ -1,0 +1,8 @@
+name: Water
+amount:
+  quantity: 1
+  unit: l
+optional: true
+alternatives:
+  - name: Wine
+  - name: Beer

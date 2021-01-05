@@ -1,0 +1,5 @@
+name: Water
+description: Not allowed
+amount:
+  quantity: 1
+  unit: l

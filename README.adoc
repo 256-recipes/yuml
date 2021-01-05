@@ -28,7 +28,6 @@ ingredients:
 directions:
   - step: Boil the water.
   - step: Add instant coffee to a mug.
-  - step: Add instant coffee to a mug.
   - step: Dissolve the coffee with water.
   - step: Mix in sugar or milk, if desired.
 ----

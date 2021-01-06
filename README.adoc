@@ -1,7 +1,7 @@
 = Yuml
 
 Yuml is a recipe markup language.
-It's is a machine-first markup language, but could be easily read by humans as well.
+It's a machine-first markup language, but could be easily read by humans as well.
 Yuml recipes look like this:
 
 [source, yml]

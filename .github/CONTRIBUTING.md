@@ -51,7 +51,7 @@ You can also fork the repo and then clone it locally, to view changes and run yo
 - Once you submit your PR, it will be reviewed.
 - After that, there may be questions, check back on your PR to keep up with the conversation.
 - Did you have an issue, like a merge conflict?
-  Check out our [git tutorial](https://lab.github.com/githubtraining/managing-merge-conflicts) on how to resolve merge conflicts and other issues.
+  Check out this [git tutorial](https://lab.github.com/githubtraining/managing-merge-conflicts) on how to resolve merge conflicts and other issues.
 
 ## Your PR is merged
 

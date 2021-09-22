@@ -1,6 +1,7 @@
 import path = require('path');
 import glob = require('glob');
 import ajvValidate from 'ajv-cli/dist/commands/validate';
+import { expect, jest, test } from '@jest/globals';
 
 function validate(
   schema: string,

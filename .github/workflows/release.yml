@@ -1,8 +1,10 @@
 name: Release
+
 on:
   push:
     branches:
       - master
+
 jobs:
   release:
     name: Release
@@ -13,19 +15,19 @@ jobs:
         id: version
       - uses: dev-drprasad/delete-tag-and-release@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASES_GITHUB_TOKEN }}
         with:
           delete_release: true
           tag_name: ${{ steps.version.outputs.current-version}}
       - uses: dev-drprasad/delete-tag-and-release@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASES_GITHUB_TOKEN }}
         with:
           delete_release: true
           tag_name: latest
       - uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASES_GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.version.outputs.current-version}}
           release_name: ${{ steps.version.outputs.current-version}}
@@ -33,7 +35,7 @@ jobs:
           prerelease: false
       - uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASES_GITHUB_TOKEN }}
         with:
           tag_name: latest
           release_name: latest

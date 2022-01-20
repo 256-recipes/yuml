@@ -4,7 +4,7 @@
 
 Before you begin:
 
-- This project is powered by [JSON Schema](https://json-schema.org), [TypeScript](https://www.typescriptlang.org), [Jest](https://jestjs.io/), [Node.js](https://nodejs.org) and [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions).
+- This project is powered by [JSON Schema](https://json-schema.org), [TypeScript](https://www.typescriptlang.org), [Jest](https://jestjs.io/), [Node.js](https://nodejs.org), [Yarn](https://yarnpkg.com) and [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions).
 - Have you read the [code of conduct](CODE_OF_CONDUCT.md)?
 - Check out the [existing issues](https://github.com/256-recipes/yuml/issues).
 

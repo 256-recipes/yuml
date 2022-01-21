@@ -5,7 +5,7 @@ amount:
 optional: true
 alternatives:
   - name: Wine
-    amount:
-      quantity: 1
-      unit: l
-  - name: Vodka
+    alternatives:
+      - name: Beer
+        alternatives:
+          - name: Vodka

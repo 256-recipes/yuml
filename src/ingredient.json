@@ -12,7 +12,7 @@
     "alternatives": {
       "type": "array",
       "items": {
-        "$ref": "ingredient.json"
+        "$ref": "#/$defs/alternative"
       }
     },
     "optional": {
@@ -20,5 +20,20 @@
     }
   },
   "required": ["name"],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "alternative": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "amount": {
+          "$ref": "amount.json"
+        }
+      },
+      "required": ["name"],
+      "additionalProperties": false
+    }
+  }
 }

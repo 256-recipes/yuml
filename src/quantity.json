@@ -3,21 +3,22 @@
   "$id": "https://github.com/256-recipes/yuml/releases/download/${version}/quantity.json",
   "oneOf": [
     {
-      "$ref": "#/definitions/quantity"
+      "$ref": "#/$defs/quantity"
     },
     {
       "type": "object",
       "properties": {
         "min": {
-          "$ref": "#/definitions/quantity"
+          "$ref": "#/$defs/quantity"
         },
-        "maxn": {
-          "$ref": "#/definitions/quantity"
+        "max": {
+          "$ref": "#/$defs/quantity"
         }
-      }
+      },
+      "additionalProperties": false
     }
   ],
-  "definitions": {
+  "$defs": {
     "quantity": {
       "oneOf": [
         {

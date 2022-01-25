@@ -5,6 +5,10 @@
   "properties": {
     "step": {
       "type": "string"
+    },
+    "timer": {
+      "type": "number",
+      "minimum": 0
     }
   },
   "required": ["step"],

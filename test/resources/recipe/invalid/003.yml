@@ -28,10 +28,10 @@ ingredients:
       unit: tbsp.
 directions:
   - step: Preheat the oven to 120–150 °C.
+    time: 1
   - step: Mix flour, salt and oil.
   - step: Add the water, bit at a time, to create a stiff, dry dough — hardtack is supposed to be completely dry when finished.
   - step: Roll the dough out until it's about 10 thick.
   - step: Use an upturned glass to cut out the biscuits.
   - step: Punch some holes in the dough to allow the air and moisture to escape whilst baking.
   - step: Bake the bucellatum in the oven until completely dry (about 2.5 hours). You may want to turn it over halfway through and re-punch the holes.
-    timer: 150

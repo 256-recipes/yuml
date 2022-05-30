@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@jest/globals": "^27.4.6",
-    "@jest/types": "^27.5.0",
+    "@jest/types": "^28.1.0",
     "@types/glob": "^7.2.0",
     "@types/minimist": "^1.2.2",
     "ajv-cli": "^5.0.0",

@@ -27,16 +27,16 @@
     "test": "jest --silent"
   },
   "devDependencies": {
-    "@jest/globals": "^27.4.6",
-    "@jest/types": "^27.5.0",
+    "@jest/globals": "^28.1.0",
+    "@jest/types": "^28.1.0",
     "@types/glob": "^7.2.0",
     "@types/minimist": "^1.2.2",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^2.1.1",
     "glob": "^8.0.1",
-    "jest": "^27.5.1",
+    "jest": "^28.1.0",
     "source-map-support": "^0.5.21",
-    "ts-jest": "^27.1.4",
+    "ts-jest": "^28.0.3",
     "ts-node": "^10.8.0",
     "typescript": "^4.6.4"
   }

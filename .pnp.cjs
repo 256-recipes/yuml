@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:28.1.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["ts-jest", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:28.0.4"],\
-            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.0"],\
+            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -1673,7 +1673,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-schema-migrate", "npm:2.0.0"],\
             ["json5", "npm:2.2.0"],\
             ["minimist", "npm:1.2.5"],\
-            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.0"]\
+            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.1"]\
           ],\
           "packagePeers": [\
             "@types/ts-node",\
@@ -4742,17 +4742,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-node", [\
-        ["npm:10.8.0", {\
-          "packageLocation": "./.yarn/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["npm:10.8.1", {\
+          "packageLocation": "./.yarn/cache/ts-node-npm-10.8.1-24280b0982-7d1aa7aa3a.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "npm:10.8.0"]\
+            ["ts-node", "npm:10.8.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.0", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-166b07aa50/0/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-4c5f5259cd/0/cache/ts-node-npm-10.8.1-24280b0982-7d1aa7aa3a.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.0"],\
+            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\
@@ -5009,7 +5009,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:28.1.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["ts-jest", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:28.0.4"],\
-            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.0"],\
+            ["ts-node", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:10.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\

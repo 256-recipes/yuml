@@ -34,7 +34,7 @@
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^2.1.1",
     "glob": "^8.0.1",
-    "jest": "^28.1.0",
+    "jest": "^28.1.1",
     "source-map-support": "^0.5.21",
     "ts-jest": "^28.0.4",
     "ts-node": "^10.8.1",

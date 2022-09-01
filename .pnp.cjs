@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@jest/globals", "npm:28.1.0"],\
             ["@jest/types", "npm:28.1.0"],\
-            ["@types/glob", "npm:7.2.0"],\
+            ["@types/glob", "npm:8.0.0"],\
             ["@types/minimist", "npm:1.2.2"],\
             ["ajv-cli", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:5.0.0"],\
             ["ajv-formats", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:2.1.1"],\
@@ -1578,10 +1578,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/glob", [\
-        ["npm:7.2.0", {\
-          "packageLocation": "./.yarn/cache/@types-glob-npm-7.2.0-772334bf9a-6ae717fedf.zip/node_modules/@types/glob/",\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-glob-npm-8.0.0-02bd6d4d05-1817b05f5a.zip/node_modules/@types/glob/",\
           "packageDependencies": [\
-            ["@types/glob", "npm:7.2.0"],\
+            ["@types/glob", "npm:8.0.0"],\
             ["@types/minimatch", "npm:3.0.5"],\
             ["@types/node", "npm:17.0.10"]\
           ],\
@@ -5262,7 +5262,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yuml", "workspace:."],\
             ["@jest/globals", "npm:28.1.0"],\
             ["@jest/types", "npm:28.1.0"],\
-            ["@types/glob", "npm:7.2.0"],\
+            ["@types/glob", "npm:8.0.0"],\
             ["@types/minimist", "npm:1.2.2"],\
             ["ajv-cli", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:5.0.0"],\
             ["ajv-formats", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:2.1.1"],\

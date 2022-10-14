@@ -933,6 +933,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/types@npm:^29.2.0":
+  version: 29.2.0
+  resolution: "@jest/types@npm:29.2.0"
+  dependencies:
+    "@jest/schemas": ^29.0.0
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^17.0.8
+    chalk: ^4.0.0
+  checksum: 6b04cbb23306f16eaf4f0d158cfcb7cc905b352e2e44a0a4618c46cf3bdf7a1da64cea8fbc731a19e8a86dc5b80a75aec985cf8764b3178939b5d850ccc68b57
+  languageName: node
+  linkType: hard
+
 "@jridgewell/gen-mapping@npm:^0.1.0":
   version: 0.1.1
   resolution: "@jridgewell/gen-mapping@npm:0.1.1"
@@ -4348,7 +4362,7 @@ __metadata:
   resolution: "yuml@workspace:."
   dependencies:
     "@jest/globals": ^28.1.0
-    "@jest/types": ^28.1.0
+    "@jest/types": ^29.2.0
     "@types/glob": ^8.0.0
     "@types/minimist": ^1.2.2
     ajv-cli: ^5.0.0

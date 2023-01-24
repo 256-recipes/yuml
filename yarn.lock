@@ -824,6 +824,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/schemas@npm:^29.4.0":
+  version: 29.4.0
+  resolution: "@jest/schemas@npm:29.4.0"
+  dependencies:
+    "@sinclair/typebox": ^0.25.16
+  checksum: 005c90b7b641af029133fa390c0c8a75b63edf651da6253d7c472a8f15ddd18aa139edcd4236e57f974006e39c67217925768115484dbd7bfed2eba224de8b7d
+  languageName: node
+  linkType: hard
+
 "@jest/source-map@npm:^29.0.0":
   version: 29.0.0
   resolution: "@jest/source-map@npm:29.0.0"
@@ -930,6 +939,20 @@ __metadata:
     "@types/yargs": ^17.0.8
     chalk: ^4.0.0
   checksum: 50a3658d69cad32fe270ef22e9a21cbad38c387d0b17cb1f23b144f9c9081e81623feda940b6b23459df656f88153ffe7765f36cd3bc3f3b2d8cd0ca246d75b2
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^29.4.0":
+  version: 29.4.0
+  resolution: "@jest/types@npm:29.4.0"
+  dependencies:
+    "@jest/schemas": ^29.4.0
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^17.0.8
+    chalk: ^4.0.0
+  checksum: be901c76df3d528e50901d6008b49960acaa762ccbf2cf68311f72c13dbe0ee179862b4e45061b419ad173b049b78dc87641b4fb23bba0539eebd955a9e12f7d
   languageName: node
   linkType: hard
 
@@ -1046,6 +1069,13 @@ __metadata:
   version: 0.24.34
   resolution: "@sinclair/typebox@npm:0.24.34"
   checksum: 35adcc7698fe751951e75fefe748a1d6e928afa3e52c153d1984a9d47c2a4f39e89f6adf727daef5cc12a58c71c2a0f63e3d88d105e4435252cfb68231518687
+  languageName: node
+  linkType: hard
+
+"@sinclair/typebox@npm:^0.25.16":
+  version: 0.25.21
+  resolution: "@sinclair/typebox@npm:0.25.21"
+  checksum: 763af1163fe4eabee9b914d4e4548a39fbba3287d2b3b1ff043c1da3c5a321e99d50a3ca94eb182988131e00b006a6f019799cde8da2f61e2f118b30b0276a00
   languageName: node
   linkType: hard
 
@@ -4348,7 +4378,7 @@ __metadata:
   resolution: "yuml@workspace:."
   dependencies:
     "@jest/globals": ^28.1.0
-    "@jest/types": ^28.1.0
+    "@jest/types": ^29.4.0
     "@types/glob": ^8.0.0
     "@types/minimist": ^1.2.2
     ajv-cli: ^5.0.0

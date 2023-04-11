@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@jest/globals", "npm:29.5.0"],\
-            ["@jest/types", "npm:28.1.0"],\
+            ["@jest/types", "npm:29.5.0"],\
             ["@types/glob", "npm:8.0.0"],\
             ["@types/minimist", "npm:1.2.2"],\
             ["ajv-cli", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:5.0.0"],\
@@ -4792,7 +4792,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ts-jest", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:28.0.8"],\
             ["@babel/core", null],\
-            ["@jest/types", "npm:28.1.0"],\
+            ["@jest/types", "npm:29.5.0"],\
             ["@types/babel-jest", null],\
             ["@types/babel__core", null],\
             ["@types/esbuild", null],\
@@ -5090,7 +5090,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["yuml", "workspace:."],\
             ["@jest/globals", "npm:29.5.0"],\
-            ["@jest/types", "npm:28.1.0"],\
+            ["@jest/types", "npm:29.5.0"],\
             ["@types/glob", "npm:8.0.0"],\
             ["@types/minimist", "npm:1.2.2"],\
             ["ajv-cli", "virtual:1a66fde6045d03de8c522abaddd30f5e0f09723fe91e5d648ea606616633925eaf9ff51118a8e2d7e16df92067eb62b8c67111fdf89f831a326d0c86d337f7e1#npm:5.0.0"],\

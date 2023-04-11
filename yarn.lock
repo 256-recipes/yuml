@@ -4102,7 +4102,7 @@ __metadata:
   resolution: "yuml@workspace:."
   dependencies:
     "@jest/globals": ^29.5.0
-    "@jest/types": ^28.1.0
+    "@jest/types": ^29.5.0
     "@types/glob": ^8.0.0
     "@types/minimist": ^1.2.2
     ajv-cli: ^5.0.0

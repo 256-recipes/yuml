@@ -27,7 +27,7 @@
     "test": "jest --silent"
   },
   "devDependencies": {
-    "@jest/globals": "^29.5.0",
+    "@jest/globals": "^29.6.0",
     "@jest/types": "^29.5.0",
     "@types/glob": "^8.0.0",
     "@types/minimist": "^1.2.2",
